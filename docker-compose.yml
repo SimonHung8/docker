@@ -24,4 +24,4 @@ services:
     image: "cygnetops/multi-nginx-10-14"
     hostname: nginx
     ports:
-      - 80:80
+      - 443:80

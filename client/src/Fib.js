@@ -57,6 +57,8 @@ class Fib extends Component {
   render() {
     return (
       <div>
+        <div>add ports 443:80 in docker compose</div>
+        <div>nginx listen to 800</div>
         <form onSubmit={this.handleSubmit}>
           <label>Enter your index:</label>
           <input
