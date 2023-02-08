@@ -24,4 +24,4 @@ services:
     image: "simon8/multi-nginx-10-14"
     hostname: nginx
     ports:
-      - 443:80
+      - 80:80

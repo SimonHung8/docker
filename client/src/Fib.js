@@ -57,8 +57,6 @@ class Fib extends Component {
   render() {
     return (
       <div>
-        <div>add ports 443:80 in docker compose</div>
-        <div>nginx listen to 800</div>
         <form onSubmit={this.handleSubmit}>
           <label>Enter your index:</label>
           <input
@@ -68,6 +66,8 @@ class Fib extends Component {
           <button>Submit</button>
         </form>
 
+        <div>add ports 80:80 in docker compose</div>
+        <div>nginx listen to 80</div>
         <h3>Indexes I have seen:</h3>
         {this.renderSeenIndexes()}
 
