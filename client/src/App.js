@@ -19,7 +19,7 @@ function App() {
           >
             Learn React
           </a>
-          <div>no port in docker compose</div>
+          <div>add ports in docker compose</div>
           <div>nginx listen to 80</div>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
